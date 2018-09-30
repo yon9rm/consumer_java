@@ -7,7 +7,7 @@ import org.apache.commons.httpclient.HttpException;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
 
-//ƒ¡Ω¥∏” ª˝º∫ - µÓ∑œ
+// Ïª®ÏäàÎ®∏ ÏÉùÏÑ± - Îì±Î°ù
 public class Insert {
 
 	public static void main(String[] args) throws HttpException, IOException {
@@ -19,7 +19,7 @@ public class Insert {
 		PostMethod method = new PostMethod(url);
 		
 		method.setRequestHeader("Contenct-Type", "application/json");
-		String body = "{\"name\":\"ø¿πŸ∏∂\", \"tel\":\"010-5555-5555\", \"address\":\"white house\"}";
+		String body = "{\"name\":\"Ïò§Î∞îÎßà\", \"tel\":\"010-5555-5555\", \"address\":\"white house\"}";
 		
 		StringRequestEntity requestEntity = new StringRequestEntity(body, "application/json", "utf-8");
 		method.setRequestEntity(requestEntity);

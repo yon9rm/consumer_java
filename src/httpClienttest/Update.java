@@ -7,7 +7,7 @@ import org.apache.commons.httpclient.HttpException;
 import org.apache.commons.httpclient.methods.PutMethod;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
 
-//ÄÁ½´¸Ó »ı¼º - ¼öÁ¤
+// ì»¨ìŠˆë¨¸ ìƒì„± - ìˆ˜ì •
 public class Update {
 
 	public static void main(String[] args) throws HttpException, IOException {
@@ -18,7 +18,7 @@ public class Update {
 		String url = "http://localhost:8000/contactssvc/service/contacts/20";
 		PutMethod method = new PutMethod(url);
 		method.setRequestHeader("Content-Type", "application/json");
-		String body = "{\"name\":\"¿À¹Ù¸¶\", \"tel\":\"010-5555-5555\", \"address\":\"white house\"}";
+		String body = "{\"name\":\"ì˜¤ë°”ë§ˆ\", \"tel\":\"010-5555-5555\", \"address\":\"white house\"}";
 		
 		StringRequestEntity requestEntity = new StringRequestEntity(body, "application/json", "utf-8");
 		method.setRequestEntity(requestEntity);

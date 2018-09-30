@@ -7,7 +7,7 @@ import org.apache.commons.httpclient.HttpException;
 import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.methods.GetMethod;
 
-//ÄÁ½´¸Ó »ı¼º - Á¶È¸
+// ì»¨ìŠˆë¨¸ ìƒì„± - ì¡°íšŒ
 public class Select {
 
 	public static void main(String[] args) throws HttpException, IOException {
